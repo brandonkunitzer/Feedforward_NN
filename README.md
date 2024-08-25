@@ -12,18 +12,19 @@ Have you ever wanted the edge in a fantasy football match? I did, that's why I s
 
 # Neural Network Details
 ![IMG_0011](https://github.com/user-attachments/assets/53dc32e2-33c8-4bde-8fcc-599c85295d41)
-This project uses a neural network that takes in four inputs and has one hidden layer with 4 neruons. The 4 inputs are floats that are scaled using a standard scaler. As described in the intro, this is a feedforward nerual network that uses sigmoid to classify a player's performance. I used numpy to develop the neural network. 
+This project uses a neural network that takes in four inputs and has one hidden layer with 4 neruons. The 4 inputs are floats that are scaled using a standard scaler. As described in the intro, this is a feedforward nerual network that uses sigmoid to classify a player's performance. I used python and the numpy library to develop the neural network. 
 
 # Fantsay Football Data Aquisition
 Using selenium and beautiful soup, I was able to scrape the fantasy football data from numerous different websites
 
 # How to use the saved model:
 
-Step 1) Download the model and file to run the model <br />
-Step 2) Open the file in a code editor <br />
-Step 3) Run the file <br />
-Step 4) Enter predicitons <br />
-Step 5) Analyze the predicitons: if it is less than .5, then the player is not predicted to outperform their projections. If the prediction is greater than .5 then they are projected to outperform their projection.
+Step 1) Download the model (RB_trained_model.pkl), file to run the model (running_model.py) and the neural network itself (Simple_NN.py) <br />
+Step 2) Add all of the files into the same folder <br />
+Step 3) Open the file 'running_model.py' (to run it you might need to pip install joblib)<br />
+Step 4) Change the file path to the folder and saved model (RB_trained_model.pkl) <br />
+Step 5) Run the model and input the data as prompted <br />
+Step 6) Analyze the predicitons: if it is less than .5, then the player is not predicted to outperform their projections. If the prediction is greater than .5 then they are projected to outperform their projection.
 
 # DISCLAIMER
 This model was only traied on running back data, therefore it should only be used to predict running back performances! Also, the data used to train the model is not alwasy indicative of how a player will play. There was an in-sample accuracy of only 70% at best. Additionally, the model is most accurate for players predicted under 5 or 6 points. Anything above that and the model will disproportionately predict the player to underperform. With all of that said, the neural network works exactly as it is supposed to. The sometimes poor results are likely a consquence of the inputs having minimal inherent correlation to a player's projections. 
