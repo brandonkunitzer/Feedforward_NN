@@ -27,7 +27,9 @@ Step 5) Run the model and input the data as prompted <br />
 Step 6) Analyze the predicitons: if it is less than .5, then the player is not predicted to outperform their projections. If the prediction is greater than .5 then they are projected to outperform their projection.
 
 # DISCLAIMER
-This model was only traied on running back data, therefore it should only be used to predict running back performances! Also, the data used to train the model is not alwasy indicative of how a player will play. There was an in-sample accuracy of only 70% at best. Additionally, the model is most accurate for players predicted under 5 or 6 points. Anything above that and the model will disproportionately predict the player to underperform. With all of that said, the neural network works exactly as it is supposed to. The sometimes poor results are likely a consquence of the inputs having minimal inherent correlation to a player's projections. 
+This model was only traied on running back data, therefore it should only be used to predict running back performances! Additionally, the data used to train the model is not alwasy indicative of how a player will play. There was an in-sample accuracy of only 70% at best. The model is most accurate for players predicted under 5 or 6 points. Anything above that and the model will disproportionately predict the player to underperform. With all of that said, the neural network works exactly as it is supposed to. The sometimes poor results are likely a consquence of the inputs having minimal inherent correlation to a player's performance. 
+
+
 
 
 
