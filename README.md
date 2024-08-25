@@ -1,1 +1,3 @@
-# FantasyFootball-NN
+# Feedforward Neural Network for Fantasy Football predicitons
+
+
