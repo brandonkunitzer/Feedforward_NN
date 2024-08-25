@@ -6,7 +6,6 @@ Have you ever wanted the edge in a fantasy football match? I did, that's why I s
 * Code for the neural network
 * The data I used to train the model
 * A saved version of the model and scaler for data - and a file to run this model
-* Code for training and saving a model
 
 # Project in action
 <img width="308" alt="Screenshot 2024-08-24 at 10 58 12 PM" src="https://github.com/user-attachments/assets/749d4399-b1d6-4f09-982b-78c5ac7c3ef0">
