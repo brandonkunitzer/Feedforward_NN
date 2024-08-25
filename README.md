@@ -20,10 +20,10 @@ Using selenium and beautiful soup, I was able to scrape the fantasy football dat
 
 # How to use the saved model:
 
-Step 1) Download the model and file to run the model
-Step 2) Open the file in a code editor
-Step 3) Run the file
-Step 4) Enter predicitons
+Step 1) Download the model and file to run the model /n
+Step 2) Open the file in a code editor /n
+Step 3) Run the file /n
+Step 4) Enter predicitons /n
 Step 5) Analyze the predicitons: if it is less than .5, then the player is not predicted to outperform their projections. If the prediction is greater than .5 then they are projected to outperform their projection.
 
 # DISCLAIMER
